@@ -1,4 +1,3 @@
-# FreeLabs
 # Spark-October-Hackathon
 Spark October Hackathon
 
