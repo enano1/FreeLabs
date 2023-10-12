@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="labs.css">
+    <title>Bubble-Sort</title>
+</head>
+<body>
+    <section>
+    <div class ="instructions-box">
+        <button class="collabsible">
+            Instructions
+        </button>
+    
+        <div class="content">
+            <ul>
+                <li>
+                    "Click on the "
+                    <b>Start</b>
+                    " button to start the exercise."
+                </li>
+                <li>
+                    Move the slider to adjust the speed of the
+                    demo.
+                    
+                </li>
+                <li>
+                    "Click on the "
+                    <b>Pause</b>
+                    " button if you want to stop and manually click on the Next button to have a
+                    step by step realization of process"
+
+                </li>
+                <li>
+                    "Click on "
+                    <b>Reset</b>
+                    " to start over with a new random set of numbers!"
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="cards">
+            <div class="card" style="font-style: normal; color: white;">00</div>
+            <div class="card" style="font-style: normal; color: white;">00</div>
+            <div class="card" style="font-style: normal; color: white;">00</div>
+            <div class="card" style="font-style: normal; color: white;">00</div>
+            <div class="card" style="font-style: normal; color: white;">00</div>
+            <div class="card" style="font-style: normal; color: white;">00</div>
+            <div class="card" style="font-style: normal; color: white;">00</div>
+            <div class="card" style="font-style: normal; color: white;">00</div>
+            <div class="card" style="font-style: normal; color: white;">00</div>
+            <div class="card" style="font-style: normal; color: white;">00</div>
+        </div>
+        <div id="legend-comment-wrapper">
+            <div class ="comment-box" id="comment-box-bigger">
+                <b>Observations</b>
+                <p id="ins"></p>
+            </div>
+        </div>
+        <div class="slidecontainer">
+            <p>
+                "Min. Speed "
+                <input class="slider" type="range" min="100" max="2500" id="interval" value="1500">
+                "Max. Speed"
+            </p>
+        </div>
+        <div class="buttons-wrapper">
+            <input class="button-input" type="button" value="Start" id="next">
+            <input class="button-input" type="button" value="Reset" id="reset">
+            <input class="button-input" type="button" value="Pause" id="pause" disabled="" style="background-color: grey;">
+        </div>
+    </div>
+    <!-- Add JS at the bottom of HTML file -->
+</section>
+</body>
+</html>

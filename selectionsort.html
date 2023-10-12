@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Selection Sort</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ADD CSS STYLING HERE-->
+</head>
+  <body>
+    <div class="instruction-box">
+      <button class="collapsible"> Instructions </button>
+        <div class = "content">
+        <ul>
+          <li>Click on the <b>Start</b> button to start the
+          demo.</li>
+          <li>Move the <b>Slider</b> to adjust the speed of the
+          demo.</li>
+          <li>Click on the <b>Pause</b> button if you want to
+          stop and manually click the Next button to have a step
+          by step realization of the process.</li>
+          <li>Click on the <b>Reset</b> button to start all over
+          with a new set of random numbers!</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div id="wrapper">
+      <div id="cards"></div>
+      
+      <div id="legend-comment-wrapper">      
+        <ul class="legend">
+          <li><span class="grey"></span> Sorted Elements</li>
+          <li><span class="green"></span> Element being iterated</li>
+          <li><span class="black"></span> Minimum element in current iteration</li>
+        </ul>
+        
+        <div class="comment-box" id="comment-box-bigger">
+          <b>Observations</b>
+          <p id="ins"></p>
+        </div>
+        
+      </div>
+      <div class="slidecontainer">
+        <p>
+          Min. Speed
+          <input class="slider" type="range" min="100" max="2500" id="interval" value="1500">
+          Max. Speed
+        </p>
+      </div>
+      
+      <div class="buttons-wrapper">
+        <input class="button-input" type="button" value="Start" id="next"  >
+        <input class="button-input" type="button" value="Reset" id="reset">
+        <input class="button-input" type="button" value="Pause" id="pause">
+      </div>
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Add CSS at the head of HTML file -->
+   <title>Bubble Sort Demo</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/bubble_css.css">
+      <link rel="stylesheet" href="../../../../main.css">
+      <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #5e937e;
+            padding: 10px 0;
+            font-size: 25px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #eaecee;
+        }
+        .wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #eaecee;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+    </style>
+  </head>
+  <body>
+    <header>Bubble Sort</header>
+    <nav id="nav">
+      <ul>
+          <li><a href="/html/index.html">Home</a></li>
+          <li><a href="./bswiki.html">Intro</a></li>
+          <li><a href="./bsdemo.html">Demo</a></li>
+          <li><a href="./bsexercise.html">Exercise</a></li>
+          <li><a href="./bspractice.html">Practice</a></li>
+      </ul>
+  </nav>
+  
+    </head>
+<body>
+<div id="main-content">
+  <!-- Your code goes here-->
+  <div class="instruction-box">
+    <h1 style="font-weight: bold; text-decoration: underline; font-size: 2em;">Instructions</h1>
+    <div class="content">
+      <ul>
+        <li>Click on the <b>Start</b> button to start the
+          demo.
+        <li>Move the slider to adjust the speed of the
+          demo.
+        <li>Click on the <b>Pause</b> button if you want to stop
+          and manually click the Next button to have a step by
+          step realization of the process.
+        <li>Click on the <b>Reset</b> button to start all over
+          with a new set of random numbers!
+      </ul>
+    </div>
+  </div>
+  
+  <div id="wrapper">
+    <div id="cards"></div>
+  
+    <div id="legend-comment-wrapper">
+      <div class="comment-box" id="comment-box-bigger">
+        <b>Observations</b>
+        <p id="ins"></p>
+      </div>
+  
+    </div>
+    <div class="slidecontainer">
+      <p>
+        Min. Speed
+        <input class="slider" type="range" min="100" max="2500" id="interval" value="1500">
+        Max. Speed
+      </p>
+    </div>
+  
+    <div class="buttons-wrapper">
+      <input class="button-input" type="button" value="Start" id="next">
+      <input class="button-input" type="button" value="Reset" id="reset">
+      <input class="button-input" type="button" value="Pause" id="pause">
+    </div>
+  
+  </div>
+  <!-- Add JS at the bottom of HTML file -->
+  <script src="js/bubble_demo.js"></script>
+  <script src="../../assets/js/instruction-box.js"></script>
+
+</div>
+</body>
+</html>
